@@ -1,12 +1,15 @@
 export default function About() {
   return (
     <section id="about" style={{ padding: "60px 20px" }}>
-      <h2>About Me</h2>
+      <h2>Professional Summary</h2>
       <p>
-       I'am a Computer Science Engineering student at SVECW, Bhimavaram, passionate about AI, Machine Learning, future technologies, and meaningful innovation.
-I strongly believe that technology should solve real-world problems.
-I enjoy learning step-by-step, building projects from scratch, and exploring how AI can be used in automation, data processing, and intelligent systems. I’m also improving my communication, design thinking, and software development skills to grow into a strong <engineer className="q"></engineer>
+        Computer Science Engineering student with strong foundations in programming,
+        data structures, and web development. Actively practicing problem solving
+        using C, Java, and Python, with hands-on experience building responsive web
+        applications. Seeking a Google Associate Software Developer or STEP internship
+        to grow software engineering skills.
       </p>
     </section>
   );
 }
+

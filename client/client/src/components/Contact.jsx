@@ -1,7 +1,5 @@
 
 
-// src/components/Contact.jsx
-
 export default function Contact() {
   return (
     <section id="contact" style={{ padding: "60px 20px", textAlign: "center" }}>
@@ -10,9 +8,10 @@ export default function Contact() {
 
       {/* Your details */}
       <div style={{ margin: "20px 0" }}>
-        <p>Email: karrilakshmibhavana@gmail.com</p>
+        <p>Email: <a href="mailto:karrilakshmibhavana@gmail.com">karrilakshmibhavana@gmail.com</a></p>
         <p>Phone: +91-7077725556</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/klbhavana" target="_blank">linkedin.com/in/klbhavana</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/karri-lakshmi-bhavana-263683326" target="_blank" rel="noopener noreferrer">linkedin.com/in/karri-lakshmi-bhavana-263683326</a></p>
+        <p>GitHub: <a href="https://github.com/lbhavanak" target="_blank" rel="noopener noreferrer">github.com/lbhavanak</a></p>
       </div>
 
       {/* Contact form for visitors */}
